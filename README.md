@@ -8,7 +8,7 @@ This repository contains Python scripts for various machine-learning tasks. Each
 **Scripts**
 
 **1.task1:**
-    **Hypothesis Space:**
+**Hypothesis Space:**
        The hypothesis space refers to the set of all possible models or hypotheses that could explain the data. It's the collection of potential functions, models, or rules that a learning algorithm can choose from to make predictions or learn from data.
 The hypothesis space is crucial because the goal of learning algorithms is to find the best hypothesis within this space.
 
@@ -16,7 +16,9 @@ The hypothesis space is crucial because the goal of learning algorithms is to fi
       It’s the way the algorithm narrows down the vast hypothesis space to make reasonable predictions. Inductive bias refers to the set of assumptions or prior knowledge that a machine learning algorithm uses to make predictions or generalize from the training data to unseen data.
 
 Classification and regression are two main types of supervised learning tasks in machine learning
+
 **Classification:** Classification is a supervised learning task that aims to predict the categorical label or class of an input based on its features.
+
 **Regression:** Regression is a supervised learning task where the goal is to predict a continuous value or numeric quantity based on input data.
 
 **2. task2.py**
@@ -74,10 +76,9 @@ Classification and regression are two main types of supervised learning tasks in
     Splits the data into training and testing sets.
     Fits a polynomial regression model.
     Evaluate the model using Mean Squared Error (MSE) and R-squared (R²).
-    
-    Expected Outputs:
-    Mean Squared Error (MSE): A numerical value indicating the model's performance.
-    R-squared (R²): A numerical value indicating the goodness of fit.
+    **Output:**
+    Mean Squared Error: 8.47223580004552e-24
+    R-squared: 1.0
    
     Libraries Required:
 **    pandas
